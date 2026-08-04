@@ -1,0 +1,305 @@
+export type Lang = "ru" | "uz" | "en";
+
+export const languages: { code: Lang; label: string; flag: string }[] = [
+  { code: "ru", label: "RU", flag: "🇷🇺" },
+  { code: "uz", label: "UZ", flag: "🇺🇿" },
+  { code: "en", label: "EN", flag: "🇬🇧" },
+];
+
+export const content = {
+  ru: {
+    nav: { home: "Главная", projects: "Проекты", experience: "Опыт", skills: "Навыки", contact: "Контакты" },
+    hero: {
+      eyebrow: "Data Science · Machine Learning · AI Agents",
+      role: "Data Scientist | Data Analyst | AI/ML Engineer",
+      location: "Ташкент, Узбекистан",
+      bio: "Специалист в Data Science и ML с практической базой в анализе данных и предобработке. Опыт очистки данных, feature engineering и построения предсказательных моделей. Строю agentic AI-системы на LangGraph и RAG-пайплайны, соединяя классический ML с современными LLM-агентами.",
+      ctaProjects: "Смотреть проекты",
+      ctaContact: "Связаться",
+      ctaResume: "Скачать резюме",
+    },
+    projectsSection: {
+      eyebrow: "Избранное",
+      title: "Проекты",
+      github: "GitHub",
+      demo: "Демо",
+      more: "Другие репозитории",
+    },
+    experienceSection: {
+      eyebrow: "Карьера",
+      title: "Опыт работы",
+    },
+    skillsSection: {
+      eyebrow: "Инструменты",
+      title: "Навыки",
+      top: "Ключевые навыки (LinkedIn)",
+    },
+    certEduSection: {
+      certTitle: "Сертификаты",
+      eduTitle: "Образование",
+    },
+    contactSection: {
+      title: "Открыта к новым возможностям",
+      text: "Ищу позицию Data Scientist / Data Analyst / ML-инженера, где можно применять опыт в моделировании, agentic AI-системах и построении аналитических пайплайнов.",
+      cta: "Написать письмо",
+    },
+    experience: [
+      {
+        role: "AI / ML Trainee",
+        company: "IT PARK Uzbekistan",
+        date: "Апрель 2026 — настоящее время",
+        location: "Ташкент, Узбекистан",
+        bullets: [
+          "Групповые ML/AI-тренинги: архитектуры нейросетей, backpropagation, gradient descent",
+          "Прототипы ML-моделей на PyTorch и scikit-learn с оценкой качества и сравнением подходов",
+        ],
+      },
+      {
+        role: "Data Science Intern",
+        company: "PROWEB",
+        date: "Март 2025 — Октябрь 2025",
+        location: "Ташкент, Узбекистан",
+        bullets: [
+          "Разработка ML-моделей (ансамбли, Gradient Boosting Classifier) на scikit-learn",
+          "Сквозные пайплайны предобработки данных в pandas: очистка, интеграция, структурирование",
+          "EDA и визуализация (matplotlib, seaborn), отбор признаков (SelectKBest)",
+          "Автоматизация подготовки датасетов с помощью переиспользуемых Python-скриптов",
+        ],
+      },
+    ],
+    projects: [
+      {
+        title: "Agentic RAG Assistant",
+        subtitle: "Self-correcting RAG на LangGraph",
+        desc: "Самокорректирующийся RAG-агент (DeepSeek + BM25): отвечает по PDF на любом языке, уходит в веб-поиск при нехватке контекста и проверяет обоснованность ответа перед выдачей.",
+        tags: ["Python", "LangGraph", "DeepSeek API", "BM25", "Tavily", "Gradio", "Render"],
+        github: "https://github.com/rosychks",
+      },
+      {
+        title: "Synapse — Multi-Agent AI Analyst",
+        subtitle: "Мульти-агентная система на LangGraph",
+        desc: "Супервизор маршрутизирует запрос между памятью, документами, веб-поиском и БД; агент-критик проверяет каждый ответ перед выдачей. Backend на FastAPI (SSE), frontend на Next.js.",
+        tags: ["LangGraph", "LangChain", "FastAPI", "Next.js", "Qdrant", "Langfuse", "Vercel"],
+        github: "https://github.com/rosychks",
+      },
+    ],
+    moreProjects: [
+      { title: "churn-prediction-app", desc: "Приложение для прогнозирования оттока клиентов", url: "https://github.com/rosychks/churn-prediction-app" },
+      { title: "sentiment-review-analyzer", desc: "Анализ тональности отзывов", url: "https://github.com/rosychks/sentiment-review-analyzer" },
+      { title: "student-risk-prediction", desc: "Модель классификации риска для студентов", url: "https://github.com/rosychks/student-risk-prediction" },
+    ],
+    skillGroups: [
+      { name: "Data Science & ML", items: ["Supervised Learning", "Unsupervised Learning", "scikit-learn", "XGBoost", "PyTorch", "Deep Learning", "Feature Engineering", "SelectKBest"] },
+      { name: "LLM & Agentic AI", items: ["OpenAI", "Anthropic (Claude)", "Google Gemini", "DeepSeek", "RAG", "LangGraph", "LangChain", "Multi-Agent Systems", "BM25"] },
+      { name: "Анализ и визуализация", items: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "EDA", "Power BI", "PostgreSQL", "Excel"] },
+      { name: "Web & Deployment", items: ["Python", "SQL", "FastAPI", "Next.js", "React", "TypeScript", "Gradio", "Vercel", "Render"] },
+    ],
+    topSkills: ["BM25", "LangGraph", "Gradio"],
+    certifications: ["Claude Code in Action", "Data Science"],
+    education: {
+      school: "UzSWLU",
+      degree: "Бакалавр иностранных языков — преподавание английского как иностранного (ESL)",
+      year: "2023",
+    },
+    footer: "Data Scientist из Ташкента",
+  },
+  uz: {
+    nav: { home: "Bosh sahifa", projects: "Loyihalar", experience: "Tajriba", skills: "Ko'nikmalar", contact: "Aloqa" },
+    hero: {
+      eyebrow: "Data Science · Machine Learning · AI Agentlar",
+      role: "Data Scientist | Data Analyst | AI/ML Engineer",
+      location: "Toshkent, O'zbekiston",
+      bio: "Ma'lumotlarni tozalash, feature engineering va bashoratli modellashda amaliy tajribaga ega Data Scientist va ML mutaxassisiman. LangGraph asosida agentli AI tizimlari va RAG pipeline'lar quraman, klassik ML bilan zamonaviy LLM agentlarini birlashtiraman.",
+      ctaProjects: "Loyihalarni ko'rish",
+      ctaContact: "Bog'lanish",
+      ctaResume: "Rezyumeni yuklab olish",
+    },
+    projectsSection: {
+      eyebrow: "Tanlangan",
+      title: "Loyihalar",
+      github: "GitHub",
+      demo: "Demo",
+      more: "Boshqa repozitoriyalar",
+    },
+    experienceSection: {
+      eyebrow: "Karyera",
+      title: "Ish tajribasi",
+    },
+    skillsSection: {
+      eyebrow: "Vositalar",
+      title: "Ko'nikmalar",
+      top: "Asosiy ko'nikmalar (LinkedIn)",
+    },
+    certEduSection: {
+      certTitle: "Sertifikatlar",
+      eduTitle: "Ta'lim",
+    },
+    contactSection: {
+      title: "Yangi imkoniyatlarga ochiqman",
+      text: "Modellashtirish, agentli AI tizimlari va analitik pipeline'lar sohasidagi tajribamni qo'llay oladigan Data Scientist / Data Analyst / ML-muhandis lavozimini izlayapman.",
+      cta: "Xat yozish",
+    },
+    experience: [
+      {
+        role: "AI / ML Trainee",
+        company: "IT PARK Uzbekistan",
+        date: "2026-yil aprel — hozirgacha",
+        location: "Toshkent, O'zbekiston",
+        bullets: [
+          "Guruhli ML/AI treninglar: neyron tarmoq arxitekturalari, backpropagation, gradient descent",
+          "PyTorch va scikit-learn'da ML model prototiplarini yaratish, sifatini baholash va yondashuvlarni solishtirish",
+        ],
+      },
+      {
+        role: "Data Science Intern",
+        company: "PROWEB",
+        date: "2025-yil mart — oktyabr",
+        location: "Toshkent, O'zbekiston",
+        bullets: [
+          "scikit-learn'da ML modellarini ishlab chiqish (ansambllar, Gradient Boosting Classifier)",
+          "Pandas'da end-to-end ma'lumotlarni tayyorlash pipeline'lari: tozalash, integratsiya, tuzilma",
+          "EDA va vizualizatsiya (matplotlib, seaborn), SelectKBest orqali belgilarni tanlash",
+          "Qayta ishlatiladigan Python skriptlari bilan datasetlarni tayyorlashni avtomatlashtirish",
+        ],
+      },
+    ],
+    projects: [
+      {
+        title: "Agentic RAG Assistant",
+        subtitle: "LangGraph asosidagi o'z-o'zini tuzatuvchi RAG",
+        desc: "O'z-o'zini tuzatuvchi RAG agent (DeepSeek + BM25): istalgan tildagi PDF bo'yicha javob beradi, kontekst yetmasa veb-qidiruvga o'tadi va javobni chiqarishdan oldin asoslanganligini tekshiradi.",
+        tags: ["Python", "LangGraph", "DeepSeek API", "BM25", "Tavily", "Gradio", "Render"],
+        github: "https://github.com/rosychks",
+      },
+      {
+        title: "Synapse — Multi-Agent AI Analyst",
+        subtitle: "LangGraph asosidagi ko'p agentli tizim",
+        desc: "Supervisor so'rovni xotira, hujjatlar, veb-qidiruv va ma'lumotlar bazasi o'rtasida yo'naltiradi; tanqidchi agent har bir javobni tekshiradi. Backend — FastAPI (SSE), frontend — Next.js.",
+        tags: ["LangGraph", "LangChain", "FastAPI", "Next.js", "Qdrant", "Langfuse", "Vercel"],
+        github: "https://github.com/rosychks",
+      },
+    ],
+    moreProjects: [
+      { title: "churn-prediction-app", desc: "Mijozlar chiqib ketishini bashorat qilish ilovasi", url: "https://github.com/rosychks/churn-prediction-app" },
+      { title: "sentiment-review-analyzer", desc: "Sharhlar tonalligini tahlil qilish", url: "https://github.com/rosychks/sentiment-review-analyzer" },
+      { title: "student-risk-prediction", desc: "Talabalar uchun xavf darajasini bashorat qilish modeli", url: "https://github.com/rosychks/student-risk-prediction" },
+    ],
+    skillGroups: [
+      { name: "Data Science & ML", items: ["Supervised Learning", "Unsupervised Learning", "scikit-learn", "XGBoost", "PyTorch", "Deep Learning", "Feature Engineering", "SelectKBest"] },
+      { name: "LLM & Agentli AI", items: ["OpenAI", "Anthropic (Claude)", "Google Gemini", "DeepSeek", "RAG", "LangGraph", "LangChain", "Multi-Agent Systems", "BM25"] },
+      { name: "Tahlil va vizualizatsiya", items: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "EDA", "Power BI", "PostgreSQL", "Excel"] },
+      { name: "Web va Deployment", items: ["Python", "SQL", "FastAPI", "Next.js", "React", "TypeScript", "Gradio", "Vercel", "Render"] },
+    ],
+    topSkills: ["BM25", "LangGraph", "Gradio"],
+    certifications: ["Claude Code in Action", "Data Science"],
+    education: {
+      school: "UzSWLU",
+      degree: "Chet tillari bakalavri — ingliz tilini xorijiy til sifatida o'qitish (ESL)",
+      year: "2023",
+    },
+    footer: "Toshkentlik Data Scientist",
+  },
+  en: {
+    nav: { home: "Home", projects: "Projects", experience: "Experience", skills: "Skills", contact: "Contact" },
+    hero: {
+      eyebrow: "Data Science · Machine Learning · AI Agents",
+      role: "Data Scientist | Data Analyst | AI/ML Engineer",
+      location: "Tashkent, Uzbekistan",
+      bio: "Data Scientist and ML practitioner with hands-on experience in data cleaning, feature engineering and predictive modeling. I build agentic AI systems with LangGraph and RAG pipelines, bridging classical ML with modern LLM agents.",
+      ctaProjects: "View Projects",
+      ctaContact: "Get in Touch",
+      ctaResume: "Download Resume",
+    },
+    projectsSection: {
+      eyebrow: "Featured",
+      title: "Projects",
+      github: "GitHub",
+      demo: "Demo",
+      more: "More on GitHub",
+    },
+    experienceSection: {
+      eyebrow: "Career",
+      title: "Experience",
+    },
+    skillsSection: {
+      eyebrow: "Toolbox",
+      title: "Skills",
+      top: "Top skills (LinkedIn)",
+    },
+    certEduSection: {
+      certTitle: "Certifications",
+      eduTitle: "Education",
+    },
+    contactSection: {
+      title: "Open to new opportunities",
+      text: "Looking for a Data Scientist / Data Analyst / ML Engineer role where I can apply my experience in modeling, agentic AI systems, and analytics pipelines.",
+      cta: "Send an email",
+    },
+    experience: [
+      {
+        role: "AI / ML Trainee",
+        company: "IT PARK Uzbekistan",
+        date: "April 2026 — Present",
+        location: "Tashkent, Uzbekistan",
+        bullets: [
+          "Group ML/AI training: neural network architectures, backpropagation, gradient descent",
+          "Built ML model prototypes in PyTorch and scikit-learn, evaluating quality and comparing approaches",
+        ],
+      },
+      {
+        role: "Data Science Intern",
+        company: "PROWEB",
+        date: "March 2025 — October 2025",
+        location: "Tashkent, Uzbekistan",
+        bullets: [
+          "Built ML models (ensembles, Gradient Boosting Classifier) with scikit-learn",
+          "End-to-end data preprocessing pipelines in pandas: cleaning, integration, structuring",
+          "EDA and visualization with matplotlib/seaborn, feature selection with SelectKBest",
+          "Automated dataset preparation with reusable Python scripts",
+        ],
+      },
+    ],
+    projects: [
+      {
+        title: "Agentic RAG Assistant",
+        subtitle: "Self-correcting RAG on LangGraph",
+        desc: "Self-correcting RAG agent (DeepSeek + BM25): answers questions from any PDF in any language, falls back to web search when context is missing, and grades its own answer for groundedness before responding.",
+        tags: ["Python", "LangGraph", "DeepSeek API", "BM25", "Tavily", "Gradio", "Render"],
+        github: "https://github.com/rosychks",
+      },
+      {
+        title: "Synapse — Multi-Agent AI Analyst",
+        subtitle: "Multi-agent system on LangGraph",
+        desc: "A supervisor routes each query across memory, documents, web search and a database; a critic agent reviews every answer before it's returned. FastAPI backend with SSE, Next.js frontend.",
+        tags: ["LangGraph", "LangChain", "FastAPI", "Next.js", "Qdrant", "Langfuse", "Vercel"],
+        github: "https://github.com/rosychks",
+      },
+    ],
+    moreProjects: [
+      { title: "churn-prediction-app", desc: "Customer churn prediction app", url: "https://github.com/rosychks/churn-prediction-app" },
+      { title: "sentiment-review-analyzer", desc: "Sentiment analysis for reviews", url: "https://github.com/rosychks/sentiment-review-analyzer" },
+      { title: "student-risk-prediction", desc: "Student risk prediction classification model", url: "https://github.com/rosychks/student-risk-prediction" },
+    ],
+    skillGroups: [
+      { name: "Data Science & ML", items: ["Supervised Learning", "Unsupervised Learning", "scikit-learn", "XGBoost", "PyTorch", "Deep Learning", "Feature Engineering", "SelectKBest"] },
+      { name: "LLM & Agentic AI", items: ["OpenAI", "Anthropic (Claude)", "Google Gemini", "DeepSeek", "RAG", "LangGraph", "LangChain", "Multi-Agent Systems", "BM25"] },
+      { name: "Analysis & Visualization", items: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "EDA", "Power BI", "PostgreSQL", "Excel"] },
+      { name: "Web & Deployment", items: ["Python", "SQL", "FastAPI", "Next.js", "React", "TypeScript", "Gradio", "Vercel", "Render"] },
+    ],
+    topSkills: ["BM25", "LangGraph", "Gradio"],
+    certifications: ["Claude Code in Action", "Data Science"],
+    education: {
+      school: "UzSWLU",
+      degree: "Bachelor of Foreign Languages — Teaching English as a Second/Foreign Language (ESL)",
+      year: "2023",
+    },
+    footer: "Data Scientist based in Tashkent",
+  },
+};
+
+export const contact = {
+  email: "robiyaolimjonova550@gmail.com",
+  linkedin: "https://www.linkedin.com/in/robiyaolimjonova",
+  github: "https://github.com/rosychks",
+  phone: "+998 97 749 3550",
+};

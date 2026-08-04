@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(236, 63, 143, 0.16), transparent 45%),
+    radial-gradient(circle at 88% 15%, rgba(139, 212, 26, 0.18), transparent 45%),
+    radial-gradient(circle at 50% 95%, rgba(236, 63, 143, 0.10), transparent 50%),
+    linear-gradient(160deg, #f3f5fb, #eef1f7 45%, #eaf0f6);
+  min-height: 100vh;
+}
+
+@layer components {
+  /* Frosted glass surface — translucent, blurred, soft-lit */
+  .glass {
+    @apply bg-glassBg border border-glassBorder rounded-glass shadow-glass backdrop-blur-glass;
+    -webkit-backdrop-filter: blur(22px) saturate(160%);
+    backdrop-filter: blur(22px) saturate(160%);
+  }
+  .glass-sm {
+    @apply bg-glassBg border border-glassBorder rounded-2xl shadow-glass-sm backdrop-blur-glass;
+    -webkit-backdrop-filter: blur(22px) saturate(160%);
+    backdrop-filter: blur(22px) saturate(160%);
+  }
+  /* Pressed / recessed frost — for active pills and inputs */
+  .glass-inset {
+    @apply bg-white/40 border border-white/50 shadow-glass-inset backdrop-blur-glass;
+  }
+  .glass-inset-sm {
+    @apply bg-white/40 border border-white/50 shadow-glass-inset-sm backdrop-blur-glass;
+  }
+  /* Featured surface — extra glow ring for flagship projects */
+  .glass-featured {
+    @apply bg-glassBgStrong border border-glassBorder rounded-glass shadow-glass-featured backdrop-blur-glass;
+  }
+  .chip {
+    @apply px-4 py-2 rounded-full text-[13px] bg-glassBg border border-glassBorder shadow-glass-sm text-text1 no-underline transition-all duration-200 flex items-center gap-1.5;
+  }
+  .chip:hover {
+    @apply text-text0 -translate-y-0.5;
+  }
+  .tag {
+    @apply font-mono text-[11px] px-2.5 py-1 rounded-md bg-white/50 border border-white/60 text-violet;
+  }
+  .section-title {
+    @apply font-display text-[26px] md:text-[34px] font-semibold text-text0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
