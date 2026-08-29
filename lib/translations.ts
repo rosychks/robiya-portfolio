@@ -91,9 +91,9 @@ export const content = {
       },
     ],
     moreProjects: [
-      { title: "churn-prediction-app", desc: "Приложение для прогнозирования оттока клиентов", github: "https://github.com/rosychks/churn-prediction-app", demo: https://churn-prediction-rosychks.streamlit.app/ },
-      { title: "sentiment-review-analyzer", desc: "Анализ тональности отзывов", github: "https://github.com/rosychks/sentiment-review-analyzer",  demo: https://sentiment-review-analyzer-utcrlnyxw8y5rhxddcen96.streamlit.app/ },
-      { title: "student-risk-prediction", desc: "Модель классификации риска для студентов", github: "https://github.com/rosychks/student-risk-prediction", demo: https://student-risk-prediction-uly27qw2oa3zkdvlc9tnpu.streamlit.app/  },
+      { title: "churn-prediction-app", desc: "Приложение для прогнозирования оттока клиентов", github: "https://github.com/rosychks/churn-prediction-app", demo: "https://churn-prediction-rosychks.streamlit.app/" },
+      { title: "sentiment-review-analyzer", desc: "Анализ тональности отзывов", github: "https://github.com/rosychks/sentiment-review-analyzer",  demo: "https://sentiment-review-analyzer-utcrlnyxw8y5rhxddcen96.streamlit.app/" },
+      { title: "student-risk-prediction", desc: "Модель классификации риска для студентов", github: "https://github.com/rosychks/student-risk-prediction", demo: "https://student-risk-prediction-uly27qw2oa3zkdvlc9tnpu.streamlit.app/"  },
     ],
     skillGroups: [
       { name: "Data Science & ML", items: ["Supervised Learning", "Unsupervised Learning", "scikit-learn", "XGBoost", "PyTorch", "Deep Learning", "Feature Engineering", "SelectKBest"] },
@@ -195,9 +195,9 @@ export const content = {
       },
     ],
     moreProjects: [
-      { title: "churn-prediction-app", desc: "Mijozlar chiqib ketishini bashorat qilish ilovasi", github: "https://github.com/rosychks/churn-prediction-app", demo: https://churn-prediction-rosychks.streamlit.app/ },
-      { title: "sentiment-review-analyzer", desc: "Sharhlar tonalligini tahlil qilish", github: "https://github.com/rosychks/sentiment-review-analyzer",  demo: https://sentiment-review-analyzer-utcrlnyxw8y5rhxddcen96.streamlit.app/ },
-      { title: "student-risk-prediction", desc: "Talabalar uchun xavf darajasini bashorat qilish modeli", github: "https://github.com/rosychks/student-risk-prediction", demo: https://student-risk-prediction-uly27qw2oa3zkdvlc9tnpu.streamlit.app/  },
+      { title: "churn-prediction-app", desc: "Mijozlar chiqib ketishini bashorat qilish ilovasi", github: "https://github.com/rosychks/churn-prediction-app", demo: "https://churn-prediction-rosychks.streamlit.app/" },
+      { title: "sentiment-review-analyzer", desc: "Sharhlar tonalligini tahlil qilish", github: "https://github.com/rosychks/sentiment-review-analyzer",  demo: "https://sentiment-review-analyzer-utcrlnyxw8y5rhxddcen96.streamlit.app/" },
+      { title: "student-risk-prediction", desc: "Talabalar uchun xavf darajasini bashorat qilish modeli", github: "https://github.com/rosychks/student-risk-prediction", demo: "https://student-risk-prediction-uly27qw2oa3zkdvlc9tnpu.streamlit.app/"  },
     ],
     skillGroups: [
       { name: "Data Science & ML", items: ["Supervised Learning", "Unsupervised Learning", "scikit-learn", "XGBoost", "PyTorch", "Deep Learning", "Feature Engineering", "SelectKBest"] },
@@ -299,9 +299,9 @@ export const content = {
       },
     ],
     moreProjects: [
-      { title: "churn-prediction-app", desc: "Customer churn prediction app",  github: "https://github.com/rosychks/churn-prediction-app", demo: https://churn-prediction-rosychks.streamlit.app/ },
-      { title: "sentiment-review-analyzer", desc: "Sentiment analysis for reviews", github: "https://github.com/rosychks/sentiment-review-analyzer",  demo: https://sentiment-review-analyzer-utcrlnyxw8y5rhxddcen96.streamlit.app/ },
-      { title: "student-risk-prediction", desc: "Student risk prediction classification model", github: "https://github.com/rosychks/student-risk-prediction", demo: https://student-risk-prediction-uly27qw2oa3zkdvlc9tnpu.streamlit.app/  },
+      { title: "churn-prediction-app", desc: "Customer churn prediction app",  github: "https://github.com/rosychks/churn-prediction-app", demo: "https://churn-prediction-rosychks.streamlit.app/" },
+      { title: "sentiment-review-analyzer", desc: "Sentiment analysis for reviews", github: "https://github.com/rosychks/sentiment-review-analyzer",  demo: "https://sentiment-review-analyzer-utcrlnyxw8y5rhxddcen96.streamlit.app/" },
+      { title: "student-risk-prediction", desc: "Student risk prediction classification model", github: "https://github.com/rosychks/student-risk-prediction", demo: "https://student-risk-prediction-uly27qw2oa3zkdvlc9tnpu.streamlit.app/"  },
     ],
     ],
     skillGroups: [
