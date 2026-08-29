@@ -11,7 +11,7 @@ export const content = {
     nav: { home: "Главная", projects: "Проекты", experience: "Опыт", skills: "Навыки", contact: "Контакты" },
     hero: {
       eyebrow: "Data Science · Machine Learning · AI Agents",
-      role: "Data Scientist | Data Analyst | AI/ML Engineer",
+      role: "Data Scientist | AI/ML Engineer",
       location: "Ташкент, Узбекистан",
       bio: "Специалист в Data Science и ML с практической базой в анализе данных и предобработке. Опыт очистки данных, feature engineering и построения предсказательных моделей. Строю agentic AI-системы на LangGraph и RAG-пайплайны, соединяя классический ML с современными LLM-агентами.",
       ctaProjects: "Смотреть проекты",
@@ -91,9 +91,9 @@ export const content = {
       },
     ],
     moreProjects: [
-      { title: "churn-prediction-app", desc: "Приложение для прогнозирования оттока клиентов", url: "https://github.com/rosychks/churn-prediction-app" },
-      { title: "sentiment-review-analyzer", desc: "Анализ тональности отзывов", url: "https://github.com/rosychks/sentiment-review-analyzer" },
-      { title: "student-risk-prediction", desc: "Модель классификации риска для студентов", url: "https://github.com/rosychks/student-risk-prediction" },
+      { title: "churn-prediction-app", desc: "Приложение для прогнозирования оттока клиентов", github: "https://github.com/rosychks/churn-prediction-app", demo: https://churn-prediction-rosychks.streamlit.app/ },
+      { title: "sentiment-review-analyzer", desc: "Анализ тональности отзывов", github: "https://github.com/rosychks/sentiment-review-analyzer",  demo: https://sentiment-review-analyzer-utcrlnyxw8y5rhxddcen96.streamlit.app/ },
+      { title: "student-risk-prediction", desc: "Модель классификации риска для студентов", github: "https://github.com/rosychks/student-risk-prediction", demo: https://student-risk-prediction-uly27qw2oa3zkdvlc9tnpu.streamlit.app/  },
     ],
     skillGroups: [
       { name: "Data Science & ML", items: ["Supervised Learning", "Unsupervised Learning", "scikit-learn", "XGBoost", "PyTorch", "Deep Learning", "Feature Engineering", "SelectKBest"] },
@@ -115,7 +115,7 @@ export const content = {
     nav: { home: "Bosh sahifa", projects: "Loyihalar", experience: "Tajriba", skills: "Ko'nikmalar", contact: "Aloqa" },
     hero: {
       eyebrow: "Data Science · Machine Learning · AI Agentlar",
-      role: "Data Scientist | Data Analyst | AI/ML Engineer",
+      role: "Data Scientist | AI/ML Engineer",
       location: "Toshkent, O'zbekiston",
       bio: "Ma'lumotlarni tozalash, feature engineering va bashoratli modellashda amaliy tajribaga ega Data Scientist va ML mutaxassisiman. LangGraph asosida agentli AI tizimlari va RAG pipeline'lar quraman, klassik ML bilan zamonaviy LLM agentlarini birlashtiraman.",
       ctaProjects: "Loyihalarni ko'rish",
@@ -195,9 +195,9 @@ export const content = {
       },
     ],
     moreProjects: [
-      { title: "churn-prediction-app", desc: "Mijozlar chiqib ketishini bashorat qilish ilovasi", url: "https://github.com/rosychks/churn-prediction-app" },
-      { title: "sentiment-review-analyzer", desc: "Sharhlar tonalligini tahlil qilish", url: "https://github.com/rosychks/sentiment-review-analyzer" },
-      { title: "student-risk-prediction", desc: "Talabalar uchun xavf darajasini bashorat qilish modeli", url: "https://github.com/rosychks/student-risk-prediction" },
+      { title: "churn-prediction-app", desc: "Mijozlar chiqib ketishini bashorat qilish ilovasi", github: "https://github.com/rosychks/churn-prediction-app", demo: https://churn-prediction-rosychks.streamlit.app/ },
+      { title: "sentiment-review-analyzer", desc: "Sharhlar tonalligini tahlil qilish", github: "https://github.com/rosychks/sentiment-review-analyzer",  demo: https://sentiment-review-analyzer-utcrlnyxw8y5rhxddcen96.streamlit.app/ },
+      { title: "student-risk-prediction", desc: "Talabalar uchun xavf darajasini bashorat qilish modeli", github: "https://github.com/rosychks/student-risk-prediction", demo: https://student-risk-prediction-uly27qw2oa3zkdvlc9tnpu.streamlit.app/  },
     ],
     skillGroups: [
       { name: "Data Science & ML", items: ["Supervised Learning", "Unsupervised Learning", "scikit-learn", "XGBoost", "PyTorch", "Deep Learning", "Feature Engineering", "SelectKBest"] },
@@ -299,9 +299,10 @@ export const content = {
       },
     ],
     moreProjects: [
-      { title: "churn-prediction-app", desc: "Customer churn prediction app", url: "https://github.com/rosychks/churn-prediction-app" },
-      { title: "sentiment-review-analyzer", desc: "Sentiment analysis for reviews", url: "https://github.com/rosychks/sentiment-review-analyzer" },
-      { title: "student-risk-prediction", desc: "Student risk prediction classification model", url: "https://github.com/rosychks/student-risk-prediction" },
+      { title: "churn-prediction-app", desc: "Customer churn prediction app",  github: "https://github.com/rosychks/churn-prediction-app", demo: https://churn-prediction-rosychks.streamlit.app/ },
+      { title: "sentiment-review-analyzer", desc: "Sentiment analysis for reviews", github: "https://github.com/rosychks/sentiment-review-analyzer",  demo: https://sentiment-review-analyzer-utcrlnyxw8y5rhxddcen96.streamlit.app/ },
+      { title: "student-risk-prediction", desc: "Student risk prediction classification model", github: "https://github.com/rosychks/student-risk-prediction", demo: https://student-risk-prediction-uly27qw2oa3zkdvlc9tnpu.streamlit.app/  },
+    ],
     ],
     skillGroups: [
       { name: "Data Science & ML", items: ["Supervised Learning", "Unsupervised Learning", "scikit-learn", "XGBoost", "PyTorch", "Deep Learning", "Feature Engineering", "SelectKBest"] },
