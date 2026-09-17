@@ -33,20 +33,9 @@ export default function Hero() {
       <p className="text-text1 text-[16px] leading-relaxed max-w-[680px]">{t.hero.bio}</p>
 
       <div className="flex flex-wrap gap-3 pt-1">
-        <a
-          href="#projects"
-          className="px-6 py-3 rounded-full font-semibold text-[14px] text-violet glass-sm no-underline transition-transform hover:-translate-y-0.5"
-        >
-          {t.hero.ctaProjects}
-        </a>
+        <a href="#projects" className="px-6 py-3 rounded-full font-semibold text-[14px] text-violet glass-sm no-underline transition-transform hover:-translate-y-0.5">{t.hero.ctaProjects}</a>
         <a href="#contact" className="chip">{t.hero.ctaContact}</a>
-        <a
-          href="/resume.pdf"
-          download="Robiya_Olimjonova_CV.pdf"
-          className="px-6 py-3 rounded-full font-semibold text-[14px] text-cyan glass-sm no-underline transition-transform hover:-translate-y-0.5"
-        >
-          {t.hero.ctaResume} ↓
-        </a>
+        <a href="/resume.pdf" download="Robiya_Olimjonova_CV.pdf" className="px-6 py-3 rounded-full font-semibold text-[14px] text-cyan glass-sm no-underline transition-transform hover:-translate-y-0.5">{t.hero.ctaResume} ↓</a>
       </div>
     </section>
   );
