@@ -15,8 +15,8 @@ export default function Nav() {
 
   return (
     <nav className="sticky top-4 z-20 mx-auto max-w-[1080px] flex items-center justify-between gap-4 px-5 py-3.5 glass rounded-full">
-      <a href="#" className="font-display font-semibold text-[15px] tracking-wide text-text0 no-underline">
-        <span className="text-violet">&lt;</span>robiya<span className="text-violet"> /&gt;</span>
+      <a href="#" className="font-display font-semibold text-[15px] tracking-wide text-text0 no-underline flex items-center gap-1.5">
+        <span className="text-violet">✦</span>robiya
       </a>
 
       <ul className="hidden md:flex gap-6 list-none m-0 p-0">
