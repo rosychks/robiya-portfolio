@@ -13,15 +13,6 @@ export default function Skills() {
         <div className="flex-1 h-px bg-gradient-to-r from-white/10 to-transparent" />
       </div>
 
-      <div className="glass rounded-glass p-6 mb-6">
-        <h4 className="font-mono text-[13px] text-violet uppercase tracking-wider mb-3">{t.skillsSection.top}</h4>
-        <div className="flex flex-wrap gap-2">
-          {t.topSkills.map((s) => (
-            <span key={s} className="tag text-[12px]">{s}</span>
-          ))}
-        </div>
-      </div>
-
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {t.skillGroups.map((g) => (
           <div key={g.name} className="glass rounded-glass p-6">
