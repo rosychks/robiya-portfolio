@@ -16,12 +16,7 @@ export default function CertEdu() {
             {t.certifications.map((c) => (
               <li key={c.name} className="text-text1 text-[14px] flex items-center gap-2">
                 <span className="text-violet">✓</span>
-                
-                  href={c.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-violet transition-colors underline-offset-2 hover:underline"
-                >
+                <a href={c.link} target="_blank" rel="noreferrer" className="hover:text-violet transition-colors underline-offset-2 hover:underline">
                   {c.name}
                 </a>
               </li>
