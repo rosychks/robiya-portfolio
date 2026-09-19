@@ -18,7 +18,20 @@ export default function Nav() {
   return (
     <nav className="sticky top-4 z-20 mx-auto max-w-[1080px] flex items-center justify-between gap-2 sm:gap-4 px-4 sm:px-5 py-3 sm:py-3.5 glass rounded-full">
       <a href="#about" className="shrink-0 font-display font-semibold text-[15px] tracking-wide text-text0 no-underline flex items-center gap-1.5">
-        <span className="text-violet">✦</span>
+        <span className="text-violet inline-flex">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            className="animate-[spin_6s_linear_infinite]"
+          >
+            <ellipse cx="12" cy="12" rx="10" ry="4.2" stroke="currentColor" strokeWidth="1.6" />
+            <ellipse cx="12" cy="12" rx="10" ry="4.2" stroke="currentColor" strokeWidth="1.6" transform="rotate(60 12 12)" />
+            <ellipse cx="12" cy="12" rx="10" ry="4.2" stroke="currentColor" strokeWidth="1.6" transform="rotate(120 12 12)" />
+            <circle cx="12" cy="12" r="2.1" fill="currentColor" />
+          </svg>
+        </span>
       </a>
 
       <ul className="flex items-center gap-0.5 sm:gap-1.5 list-none m-0 p-0 overflow-x-auto">
