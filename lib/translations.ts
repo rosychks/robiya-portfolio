@@ -110,7 +110,7 @@ export const content = {
       degree: "Бакалавр иностранных языков — преподавание английского как иностранного (ESL)",
       year: "2023",
     },
-    footer: "Data Scientist из Ташкента",
+    footer: "Ташкент, Узбекистан",
   },
   uz: {
     nav: { home: "Bosh sahifa", about: "Men haqimda", projects: "Loyihalar", experience: "Tajriba", skills: "Ko'nikmalar", certifications: "Sertifikatlar", contact: "Aloqa" },
@@ -215,7 +215,7 @@ export const content = {
       degree: "Chet tillari bakalavri — ingliz tilini xorijiy til sifatida o'qitish (ESL)",
       year: "2023",
     },
-    footer: "Toshkentlik Data Scientist",
+    footer: "Toshkent, O'zbekiston",
   },
   en: {
     nav: { home: "Home", about: "About", projects: "Projects", experience: "Experience", skills: "Skills", certifications: "Certifications", contact: "Contact" },
@@ -320,7 +320,7 @@ export const content = {
       degree: "Bachelor of Foreign Languages — Teaching English as a Second/Foreign Language (ESL)",
       year: "2023",
     },
-    footer: "Data Scientist based in Tashkent",
+    footer: "Tashkent, Uzbekistan",
   },
 };
 
