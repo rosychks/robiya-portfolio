@@ -23,8 +23,22 @@ export default function Contact() {
             {t.contactSection.cta}
           </a>
           <a className="chip" href={telHref}>📞 {contact.phone}</a>
-          <a className="chip" href={contact.github} target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-          <a className="chip" href={contact.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a
+            className="px-6 py-3 rounded-full font-semibold text-[14px] text-violet glass-sm no-underline transition-transform hover:-translate-y-0.5"
+            href={contact.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+          <a
+            className="px-6 py-3 rounded-full font-semibold text-[14px] text-violet glass-sm no-underline transition-transform hover:-translate-y-0.5"
+            href={contact.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn ↗
+          </a>
         </div>
       </div>
 
