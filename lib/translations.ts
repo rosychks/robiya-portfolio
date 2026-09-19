@@ -104,8 +104,9 @@ export const content = {
     ],
     topSkills: ["BM25", "LangGraph", "Gradio"],
     certifications: [
-      { name: "Claude Code in Action", link: "https://www.linkedin.com/in/robiya-olimjonova/details/certifications/" },
-      { name: "Data Science", link: "https://www.linkedin.com/in/robiya-olimjonova/details/certifications/" },
+      { name: "Artificial Intelligence and Machine Learning", link: "https://www.linkedin.com/in/robiya-olimjonova/overlay/889068754/skill-associations-details/?associationType=certifications" },
+      { name: "Claude Code in Action", link: "https://www.linkedin.com/in/robiya-olimjonova/overlay/407112891/skill-associations-details/?associationType=certifications" },
+      { name: "Data Science", link: "https://www.linkedin.com/in/robiya-olimjonova/overlay/1627324791/skill-associations-details/?associationType=certifications" },
     ],
     education: {
       school: "UzSWLU",
@@ -211,8 +212,9 @@ export const content = {
     ],
     topSkills: ["BM25", "LangGraph", "Gradio"],
     certifications: [
-      { name: "Claude Code in Action", link: "https://www.linkedin.com/in/robiya-olimjonova/details/certifications/" },
-      { name: "Data Science", link: "https://www.linkedin.com/in/robiya-olimjonova/details/certifications/" },
+      { name: "Artificial Intelligence and Machine Learning", link: "https://www.linkedin.com/in/robiya-olimjonova/overlay/889068754/skill-associations-details/?associationType=certifications" },
+      { name: "Claude Code in Action", link: "https://www.linkedin.com/in/robiya-olimjonova/overlay/407112891/skill-associations-details/?associationType=certifications" },
+      { name: "Data Science", link: "https://www.linkedin.com/in/robiya-olimjonova/overlay/1627324791/skill-associations-details/?associationType=certifications" },
     ],
     education: {
       school: "UzSWLU",
@@ -318,8 +320,9 @@ export const content = {
     ],
     topSkills: ["BM25", "LangGraph", "Gradio"],
     certifications: [
-      { name: "Claude Code in Action", link: "https://www.linkedin.com/in/robiya-olimjonova/details/certifications/" },
-      { name: "Data Science", link: "https://www.linkedin.com/in/robiya-olimjonova/details/certifications/" },
+      { name: "Artificial Intelligence and Machine Learning", link: "https://www.linkedin.com/in/robiya-olimjonova/overlay/889068754/skill-associations-details/?associationType=certifications" },
+      { name: "Claude Code in Action", link: "https://www.linkedin.com/in/robiya-olimjonova/overlay/407112891/skill-associations-details/?associationType=certifications" },
+      { name: "Data Science", link: "https://www.linkedin.com/in/robiya-olimjonova/overlay/1627324791/skill-associations-details/?associationType=certifications" },
     ],
     education: {
       school: "UzSWLU",
