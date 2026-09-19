@@ -41,7 +41,7 @@ export default function Nav() {
               title={l.label}
               className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 rounded-full text-[12.5px] font-semibold text-text1 hover:text-violet no-underline transition-colors whitespace-nowrap"
             >
-              <span>{l.icon}</span>
+              <span className="inline-flex animate-[pulse_2.4s_ease-in-out_infinite]">{l.icon}</span>
               <span className="hidden lg:inline">{l.label}</span>
             </a>
           </li>
@@ -53,7 +53,7 @@ export default function Nav() {
             title={t.hero.ctaResume}
             className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 rounded-full text-[12.5px] font-semibold text-cyan hover:text-violet no-underline transition-colors whitespace-nowrap"
           >
-            <span>⬇️</span>
+            <span className="inline-flex animate-[pulse_2.4s_ease-in-out_infinite]">⬇️</span>
             <span className="hidden lg:inline">{t.hero.ctaResume}</span>
           </a>
         </li>
