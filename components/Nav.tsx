@@ -24,7 +24,7 @@ export default function Nav() {
       <ul className="flex items-center gap-0.5 sm:gap-1.5 list-none m-0 p-0 overflow-x-auto">
         {links.map((l) => (
           <li key={l.href} className="shrink-0">
-            
+            <a
               href={l.href}
               title={l.label}
               className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 rounded-full text-[12.5px] font-semibold text-text1 hover:text-violet no-underline transition-colors whitespace-nowrap"
@@ -35,7 +35,7 @@ export default function Nav() {
           </li>
         ))}
         <li className="shrink-0">
-          
+          <a
             href="/resume.pdf"
             download="Robiya_Olimjonova_CV.pdf"
             title={t.hero.ctaResume}
