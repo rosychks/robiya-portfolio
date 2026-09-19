@@ -47,7 +47,7 @@ export const content = {
     contactSection: {
       title: "Открыта к новым возможностям",
       text: "Ищу позицию Data Scientist / Data Analyst / ML-инженера, где можно применять опыт в моделировании, agentic AI-системах и построении аналитических пайплайнов.",
-      cta: "Написать письмо",
+      cta: "Email",
     },
     experience: [
       {
@@ -152,7 +152,7 @@ export const content = {
     contactSection: {
       title: "Yangi imkoniyatlarga ochiqman",
       text: "Modellashtirish, agentli AI tizimlari va analitik pipeline'lar sohasidagi tajribamni qo'llay oladigan Data Scientist / Data Analyst / ML-muhandis lavozimini izlayapman.",
-      cta: "Xat yozish",
+      cta: "Email",
     },
     experience: [
       {
@@ -257,7 +257,7 @@ export const content = {
     contactSection: {
       title: "Open to new opportunities",
       text: "Looking for a Data Scientist / Data Analyst / ML Engineer role where I can apply my experience in modeling, agentic AI systems, and analytics pipelines.",
-      cta: "Send an email",
+      cta: "Email",
     },
     experience: [
       {
