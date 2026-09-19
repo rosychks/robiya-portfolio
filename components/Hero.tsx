@@ -7,7 +7,7 @@ export default function Hero() {
   const { t } = useLang();
 
   return (
-    <section className="pt-16 pb-14 flex flex-col items-start gap-6">
+    <section id="about" className="pt-16 pb-14 flex flex-col items-start gap-6 scroll-mt-24">
       <div className="flex items-center gap-2.5 font-mono text-xs tracking-[0.14em] uppercase text-violet">
         <span className="w-2 h-2 rounded-full bg-cyan shadow-[0_0_10px_#8bd41a] inline-block" />
         {t.hero.eyebrow}
