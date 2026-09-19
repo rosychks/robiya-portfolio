@@ -7,7 +7,7 @@ export default function CertEdu() {
   const { t } = useLang();
 
   return (
-    <section className="py-6">
+    <section id="certifications" className="py-6 scroll-mt-24">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="glass rounded-glass p-6">
           <h4 className="font-mono text-[13px] text-violet uppercase tracking-wider mb-3">
