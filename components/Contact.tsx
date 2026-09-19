@@ -5,6 +5,7 @@ import { contact } from "@/lib/translations";
 
 export default function Contact() {
   const { t } = useLang();
+  const telHref = `tel:${contact.phone.replace(/\s+/g, "")}`;
 
   return (
     <section id="contact" className="py-14 scroll-mt-24">
@@ -14,13 +15,14 @@ export default function Contact() {
         </h2>
         <p className="text-text1 max-w-[480px] text-[15px] leading-relaxed">{t.contactSection.text}</p>
         <div className="flex flex-wrap gap-3 justify-center pt-2">
+          <span className="chip">📍 {t.hero.location}</span>
           <a
             href={`mailto:${contact.email}`}
             className="px-6 py-3 rounded-full font-semibold text-[14px] text-violet glass-sm no-underline transition-transform hover:-translate-y-0.5"
           >
             {t.contactSection.cta}
           </a>
-          <span className="chip">📍 {t.hero.location}</span>
+          <a className="chip" href={telHref}>📞 {contact.phone}</a>
           <a className="chip" href={contact.github} target="_blank" rel="noopener noreferrer">GitHub ↗</a>
           <a className="chip" href={contact.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
         </div>
