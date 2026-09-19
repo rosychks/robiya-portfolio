@@ -1,7 +1,6 @@
 "use client";
 
 import { useLang } from "@/lib/LangContext";
-import { contact } from "@/lib/translations";
 
 export default function Hero() {
   const { t } = useLang();
@@ -20,15 +19,6 @@ export default function Hero() {
       </h1>
 
       <p className="text-[18px] md:text-[22px] text-text1 font-medium">{t.hero.role}</p>
-
-      <div className="w-full glass rounded-glass px-6 py-5 flex flex-wrap gap-4 items-center justify-between">
-        <div className="flex flex-wrap gap-2.5">
-          <span className="chip">📍 {t.hero.location}</span>
-          <a className="chip" href={`mailto:${contact.email}`}>✉ Email</a>
-          <a className="chip" href={contact.github} target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-          <a className="chip" href={contact.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-        </div>
-      </div>
 
       <p className="text-text1 text-[16px] leading-relaxed max-w-[680px]">{t.hero.bio}</p>
 
