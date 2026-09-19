@@ -6,21 +6,37 @@ import { languages } from "@/lib/translations";
 export default function Nav() {
   const { lang, setLang, t } = useLang();
 
+  const links = [
+    { href: "#about", label: t.nav.about, icon: "👤" },
+    { href: "#projects", label: t.nav.projects, icon: "💼" },
+    { href: "#experience", label: t.nav.experience, icon: "📈" },
+    { href: "#skills", label: t.nav.skills, icon: "🛠" },
+    { href: "#certifications", label: t.nav.certifications, icon: "🎓" },
+    { href: "#contact", label: t.nav.contact, icon: "✉" },
+  ];
+
   return (
-    <nav className="sticky top-4 z-20 mx-auto max-w-[1080px] flex items-center justify-between gap-4 px-5 py-3.5 glass rounded-full">
-      <a href="#" className="font-display font-semibold text-[15px] tracking-wide text-text0 no-underline flex items-center gap-1.5">
+    <nav className="sticky top-4 z-20 mx-auto max-w-[1080px] flex items-center justify-between gap-2 sm:gap-4 px-4 sm:px-5 py-3 sm:py-3.5 glass rounded-full">
+      <a href="#about" className="shrink-0 font-display font-semibold text-[15px] tracking-wide text-text0 no-underline flex items-center gap-1.5">
         <span className="text-violet">✦</span>robiya
       </a>
 
-      <a
-        href="/resume.pdf"
-        download="Robiya_Olimjonova_CV.pdf"
-        className="text-[13px] font-mono font-medium text-violet hover:text-cyan transition-colors no-underline whitespace-nowrap"
-      >
-        {t.hero.ctaResume} ↓
-      </a>
+      <ul className="flex items-center gap-0.5 sm:gap-1.5 list-none m-0 p-0 overflow-x-auto">
+        {links.map((l) => (
+          <li key={l.href} className="shrink-0">
+            <a
+              href={l.href}
+              title={l.label}
+              className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 rounded-full text-[12.5px] text-text1 hover:text-violet no-underline transition-colors whitespace-nowrap"
+            >
+              <span>{l.icon}</span>
+              <span className="hidden md:inline">{l.label}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
 
-      <div className="flex gap-1.5 glass-inset-sm rounded-full p-1.5">
+      <div className="shrink-0 flex gap-1.5 glass-inset-sm rounded-full p-1.5">
         {languages.map((l) => (
           <button
             key={l.code}
