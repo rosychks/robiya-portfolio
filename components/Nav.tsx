@@ -34,6 +34,17 @@ export default function Nav() {
             </a>
           </li>
         ))}
+        <li className="shrink-0">
+          <a
+            href="/resume.pdf"
+            download="Robiya_Olimjonova_CV.pdf"
+            title={t.hero.ctaResume}
+            className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 rounded-full text-[12.5px] text-cyan hover:text-violet no-underline transition-colors whitespace-nowrap"
+          >
+            <span>⬇️</span>
+            <span className="hidden md:inline">{t.hero.ctaResume}</span>
+          </a>
+        </li>
       </ul>
 
       <div className="shrink-0 flex gap-1.5 glass-inset-sm rounded-full p-1.5">
