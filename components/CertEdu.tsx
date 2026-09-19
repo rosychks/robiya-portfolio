@@ -1,6 +1,7 @@
 "use client";
 
 import { useLang } from "@/lib/LangContext";
+import { contact } from "@/lib/translations";
 
 export default function CertEdu() {
   const { t } = useLang();
@@ -14,14 +15,19 @@ export default function CertEdu() {
           </h4>
           <ul className="flex flex-col gap-2">
             {t.certifications.map((c) => (
-              <li key={c.name} className="text-text1 text-[14px] flex items-center gap-2">
-                <span className="text-violet">✓</span>
-                <a href={c.link} target="_blank" rel="noreferrer" className="hover:text-violet transition-colors underline-offset-2 hover:underline">
-                  {c.name}
-                </a>
+              <li key={c} className="text-text1 text-[14px] flex items-center gap-2">
+                <span className="text-violet">✓</span> {c}
               </li>
             ))}
           </ul>
+          <a
+            href={contact.certifications}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-block mt-4 text-[13px] font-mono text-violet border border-violet rounded-full px-4 py-1.5 hover:bg-violet hover:text-white transition-colors"
+          >
+            {t.certEduSection.viewAll}
+          </a>
         </div>
 
         <div className="glass rounded-glass p-6">
