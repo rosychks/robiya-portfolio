@@ -20,6 +20,7 @@ export default function Contact() {
           >
             {t.contactSection.cta}
           </a>
+          <span className="chip">📍 {t.hero.location}</span>
           <a className="chip" href={contact.github} target="_blank" rel="noopener noreferrer">GitHub ↗</a>
           <a className="chip" href={contact.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
         </div>
