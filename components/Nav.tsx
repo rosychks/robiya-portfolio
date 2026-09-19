@@ -18,7 +18,7 @@ export default function Nav() {
   return (
     <nav className="sticky top-4 z-20 mx-auto max-w-[1080px] flex items-center justify-between gap-2 sm:gap-4 px-4 sm:px-5 py-3 sm:py-3.5 glass rounded-full">
       <a href="#about" className="shrink-0 font-display font-semibold text-[15px] tracking-wide text-text0 no-underline flex items-center gap-1.5">
-        <span className="text-violet">✦</span>robiya
+        <span className="text-violet">✦</span>
       </a>
 
       <ul className="flex items-center gap-0.5 sm:gap-1.5 list-none m-0 p-0 overflow-x-auto">
@@ -30,7 +30,7 @@ export default function Nav() {
               className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 rounded-full text-[12.5px] font-semibold text-text1 hover:text-violet no-underline transition-colors whitespace-nowrap"
             >
               <span>{l.icon}</span>
-              <span className="hidden md:inline">{l.label}</span>
+              <span className="hidden lg:inline">{l.label}</span>
             </a>
           </li>
         ))}
@@ -42,7 +42,7 @@ export default function Nav() {
             className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 rounded-full text-[12.5px] font-semibold text-cyan hover:text-violet no-underline transition-colors whitespace-nowrap"
           >
             <span>⬇️</span>
-            <span className="hidden md:inline">{t.hero.ctaResume}</span>
+            <span className="hidden lg:inline">{t.hero.ctaResume}</span>
           </a>
         </li>
       </ul>
