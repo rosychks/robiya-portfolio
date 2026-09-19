@@ -17,19 +17,18 @@ export default function Nav() {
 
   return (
     <nav className="sticky top-4 z-20 mx-auto max-w-[1080px] flex items-center justify-between gap-2 sm:gap-4 px-4 sm:px-5 py-3 sm:py-3.5 glass rounded-full">
-      <a href="#about" className="shrink-0 font-display font-semibold text-[15px] tracking-wide text-text0 no-underline flex items-center gap-1.5">
-        <span className="text-violet inline-flex">
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            className="animate-[spin_6s_linear_infinite]"
-          >
-            <ellipse cx="12" cy="12" rx="10" ry="4.2" stroke="currentColor" strokeWidth="1.6" />
-            <ellipse cx="12" cy="12" rx="10" ry="4.2" stroke="currentColor" strokeWidth="1.6" transform="rotate(60 12 12)" />
-            <ellipse cx="12" cy="12" rx="10" ry="4.2" stroke="currentColor" strokeWidth="1.6" transform="rotate(120 12 12)" />
-            <circle cx="12" cy="12" r="2.1" fill="currentColor" />
+      <a href="#about" className="shrink-0 font-display font-semibold text-[15px] tracking-wide text-text0 no-underline flex items-center gap-1.5 ml-2 sm:ml-3">
+        <span className="text-violet inline-flex animate-[pulse_2.4s_ease-in-out_infinite]">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+            <path
+              d="m12 2.5 1.6 4.9a2.4 2.4 0 0 0 1.53 1.53L20 10.5l-4.87 1.57a2.4 2.4 0 0 0-1.53 1.53L12 18.5l-1.6-4.9a2.4 2.4 0 0 0-1.53-1.53L4 10.5l4.87-1.57a2.4 2.4 0 0 0 1.53-1.53L12 2.5Z"
+              fill="currentColor"
+            />
+            <path
+              d="M19 15.5 19.7 17.6 21.8 18.3 19.7 19 19 21.1 18.3 19 16.2 18.3 18.3 17.6 19 15.5Z"
+              fill="currentColor"
+              opacity="0.7"
+            />
           </svg>
         </span>
       </a>
