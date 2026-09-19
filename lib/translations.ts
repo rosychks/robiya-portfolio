@@ -8,7 +8,7 @@ export const languages: { code: Lang; label: string; native: string }[] = [
 
 export const content = {
   ru: {
-    nav: { home: "Главная", projects: "Проекты", experience: "Опыт", skills: "Навыки", contact: "Контакты" },
+    nav: { home: "Главная", about: "О себе", projects: "Проекты", experience: "Опыт", skills: "Навыки", certifications: "Сертификаты", contact: "Контакты" },
     hero: {
       eyebrow: "Data Science · Machine Learning · AI Agents",
       role: "Data Scientist | AI/ML Engineer",
@@ -113,7 +113,7 @@ export const content = {
     footer: "Data Scientist из Ташкента",
   },
   uz: {
-    nav: { home: "Bosh sahifa", projects: "Loyihalar", experience: "Tajriba", skills: "Ko'nikmalar", contact: "Aloqa" },
+    nav: { home: "Bosh sahifa", about: "Men haqimda", projects: "Loyihalar", experience: "Tajriba", skills: "Ko'nikmalar", certifications: "Sertifikatlar", contact: "Aloqa" },
     hero: {
       eyebrow: "Data Science · Machine Learning · AI Agentlar",
       role: "Data Scientist | AI/ML Engineer",
@@ -218,7 +218,7 @@ export const content = {
     footer: "Toshkentlik Data Scientist",
   },
   en: {
-    nav: { home: "Home", projects: "Projects", experience: "Experience", skills: "Skills", contact: "Contact" },
+    nav: { home: "Home", about: "About", projects: "Projects", experience: "Experience", skills: "Skills", certifications: "Certifications", contact: "Contact" },
     hero: {
       eyebrow: "Data Science · Machine Learning · AI Agents",
       role: "Data Scientist | Data Analyst | AI/ML Engineer",
