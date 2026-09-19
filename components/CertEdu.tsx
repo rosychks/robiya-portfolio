@@ -12,7 +12,7 @@ export default function CertEdu() {
           <h4 className="font-mono text-[13px] text-violet uppercase tracking-wider mb-3">
             {t.certEduSection.certTitle}
           </h4>
-                   <ul className="flex flex-col gap-2">
+          <ul className="flex flex-col gap-2">
             {t.certifications.map((c) => (
               <li key={c.name} className="text-text1 text-[14px] flex items-center gap-2">
                 <span className="text-violet">✓</span>
