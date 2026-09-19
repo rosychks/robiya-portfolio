@@ -6,28 +6,19 @@ import { languages } from "@/lib/translations";
 export default function Nav() {
   const { lang, setLang, t } = useLang();
 
-  const links = [
-    { href: "#projects", label: t.nav.projects },
-    { href: "#experience", label: t.nav.experience },
-    { href: "#skills", label: t.nav.skills },
-    { href: "#contact", label: t.nav.contact },
-  ];
-
   return (
     <nav className="sticky top-4 z-20 mx-auto max-w-[1080px] flex items-center justify-between gap-4 px-5 py-3.5 glass rounded-full">
       <a href="#" className="font-display font-semibold text-[15px] tracking-wide text-text0 no-underline flex items-center gap-1.5">
         <span className="text-violet">✦</span>robiya
       </a>
 
-      <ul className="hidden md:flex gap-6 list-none m-0 p-0">
-        {links.map((l) => (
-          <li key={l.href}>
-            <a href={l.href} className="text-[13.5px] text-text1 hover:text-text0 no-underline transition-colors">
-              {l.label}
-            </a>
-          </li>
-        ))}
-      </ul>
+      <a
+        href="/resume.pdf"
+        download="Robiya_Olimjonova_CV.pdf"
+        className="text-[13px] font-mono font-medium text-violet hover:text-cyan transition-colors no-underline whitespace-nowrap"
+      >
+        {t.hero.ctaResume} ↓
+      </a>
 
       <div className="flex gap-1.5 glass-inset-sm rounded-full p-1.5">
         {languages.map((l) => (
