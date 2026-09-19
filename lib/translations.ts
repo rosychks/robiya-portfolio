@@ -103,7 +103,10 @@ export const content = {
       { name: "Инструменты", items: ["Jupyter Notebook", "GitHub", "VS Code"] },
     ],
     topSkills: ["BM25", "LangGraph", "Gradio"],
-    certifications: ["Claude Code in Action", "Data Science"],
+    certifications: [
+      { name: "Claude Code in Action", link: "https://www.linkedin.com/in/robiya-olimjonova/details/certifications/" },
+      { name: "Data Science", link: "https://www.linkedin.com/in/robiya-olimjonova/details/certifications/" },
+    ],
     education: {
       school: "UzSWLU",
       degree: "Бакалавр иностранных языков — преподавание английского как иностранного (ESL)",
@@ -207,7 +210,10 @@ export const content = {
       { name: "Vositalar", items: ["Jupyter Notebook", "GitHub", "VS Code"] },
     ],
     topSkills: ["BM25", "LangGraph", "Gradio"],
-    certifications: ["Claude Code in Action", "Data Science"],
+    certifications: [
+      { name: "Claude Code in Action", link: "https://www.linkedin.com/in/robiya-olimjonova/details/certifications/" },
+      { name: "Data Science", link: "https://www.linkedin.com/in/robiya-olimjonova/details/certifications/" },
+    ],
     education: {
       school: "UzSWLU",
       degree: "Chet tillari bakalavri — ingliz tilini xorijiy til sifatida o'qitish (ESL)",
@@ -311,7 +317,10 @@ export const content = {
       { name: "Tools", items: ["Jupyter Notebook", "GitHub", "VS Code"] },
     ],
     topSkills: ["BM25", "LangGraph", "Gradio"],
-    certifications: ["Claude Code in Action", "Data Science"],
+    certifications: [
+      { name: "Claude Code in Action", link: "https://www.linkedin.com/in/robiya-olimjonova/details/certifications/" },
+      { name: "Data Science", link: "https://www.linkedin.com/in/robiya-olimjonova/details/certifications/" },
+    ],
     education: {
       school: "UzSWLU",
       degree: "Bachelor of Foreign Languages — Teaching English as a Second/Foreign Language (ESL)",
